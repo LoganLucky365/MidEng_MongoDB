@@ -18,9 +18,10 @@ public class Warehouse {
 
     public Warehouse() {}
 
-    public Warehouse(String name, String location) {
+    public Warehouse(String name, String location, List<ProductInventory> inventory) {
         this.name = name;
         this.location = location;
+        this.inventory = inventory;
     }
 
     // Getter & Setter
